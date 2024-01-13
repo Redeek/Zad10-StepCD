@@ -17,8 +17,8 @@ spec:
             image: redek/zad2gitops:latest
             command: [sh, -e, -c]
             args:
-              - git clone https://github.com/Redeek/Zad10-Config.git /tmp/Zad10-Config &&
-                find /tmp/Zad10-config -name '*.yaml' -exec kubectl apply -f {} \
+              - git clone https://github.com/Redeek/Zad10-Config.git /temp/Zad10-Config &&
+                find /temp/Zad10-config -name '*.yaml' -exec kubectl apply -f {} \
                 
                 
                 
